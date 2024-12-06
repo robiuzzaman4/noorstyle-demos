@@ -58,8 +58,8 @@ const Features = () => {
       </h1>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
         {FEATURES.map((feature, index) => (
-          <div key={index} className="bg-gray-100 p-1.5 rounded-2xl group hover:bg-orange-100">
-            <div className="bg-white border border-gray-200 group-hover:border-orange-500 rounded-xl shadow hover:shadow-md flex flex-col items-center gap-3 p-6">
+          <div key={index} className="bg-gray-100 p-1.5 rounded-2xl group hover:bg-orange-100 hover:shadow-xl hover:cursor-pointer">
+            <div className="bg-white border-2 border-gray-200 group-hover:border-orange-500 rounded-xl shadow hover:shadow-md flex flex-col items-center gap-3 p-6">
               <img
                 src={feature.iconSrc}
                 alt={feature.label}

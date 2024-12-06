@@ -11,9 +11,14 @@ const Hero = () => {
           <h1 className="text-3xl md:text-4xl text-center font-bold">
             NoorStyle – Next.js E-commerce Template
           </h1>
-          <p className="text-base text-gray-500">Modern, responsive e-commerce template built with React.js, Next.js, TypeScript and Tailwind CSS.</p>
+          <p className="text-base text-gray-500 text-center">
+            Modern, responsive e-commerce template built with React.js, Next.js,
+            TypeScript and Tailwind CSS.
+          </p>
 
-          <Button>Check Demos</Button>
+          <Button className="h-12 w-full sm:max-w-40">
+            <a href="/#home_pages">Check Demos</a>
+          </Button>
         </div>
         {/* gradients */}
         <div className="-z-10 absolute -top-4 -right-4 h-80 w-56 lg:h-96  rotate-45 rounded-xl bg-gradient-to-tr from-yellow-500 to-orange-800 filter blur-3xl opacity-20"></div>
