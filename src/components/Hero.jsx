@@ -1,6 +1,7 @@
 import Badge from "./Badge";
 import Button from "./Button";
 import Container from "./Container";
+import { TextEffect } from "./TextEffect";
 
 const Hero = () => {
   return (
@@ -8,9 +9,14 @@ const Hero = () => {
       <Container className="py-40 relative">
         <div className="w-full max-w-3xl mx-auto flex flex-col items-center gap-6">
           <Badge>Modern E-commerce Template</Badge>
-          <h1 className="text-3xl md:text-4xl text-center font-bold">
+          <TextEffect
+            per="word"
+            as="h3"
+            preset="blur"
+            className="text-3xl md:text-4xl text-center font-bold"
+          >
             NoorStyle – Next.js E-commerce Template
-          </h1>
+          </TextEffect>
           <p className="text-base text-gray-500 text-center">
             Modern, responsive e-commerce template built with React.js, Next.js,
             TypeScript and Tailwind CSS.
