@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Features from "./components/Features";
+import Demos from "./components/Demos";
+// import Features from "./components/Features";
 
 const App = () => {
   return (
@@ -8,7 +9,8 @@ const App = () => {
       <Navbar />
       <div className="min-h-[calc(100vh-56px)] mt-14">
         <Hero />
-        <Features />
+        {/* <Features /> */}
+        <Demos />
       </div>
     </main>
   );
