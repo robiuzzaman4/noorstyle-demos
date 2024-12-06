@@ -8,7 +8,7 @@ const Hero = () => {
       <Container className="py-40 relative">
         <div className="w-full max-w-3xl mx-auto flex flex-col items-center gap-6">
           <Badge>Modern E-commerce Template</Badge>
-          <h1 className="text-3xl md:text-4xl text-center font-bold transition-transform">
+          <h1 className="text-3xl md:text-4xl text-center font-bold">
             NoorStyle – Next.js E-commerce Template
           </h1>
           <p className="text-base text-gray-500">Modern, responsive e-commerce template built with React.js, Next.js, TypeScript and Tailwind CSS.</p>
