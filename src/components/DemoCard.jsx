@@ -1,9 +1,24 @@
 import { Link } from "react-router";
 import Button from "./Button";
+import { motion } from "motion/react";
 
 const DemoCard = ({ item }) => {
   return (
-    <div className="bg-gray-100 p-1.5 rounded-2xl group hover:bg-orange-100 group-hover:transition hover:cursor-pointer hover:shadow-xl">
+    <motion.div
+      initial={{
+        opacity: 0,
+        scale: 0.8,
+      }}
+      whileInView={{
+        opacity: 1,
+        scale: 1,
+      }}
+      transition={{
+        duration: 0.5,
+        ease: "easeInOut",
+      }}
+      className="bg-gray-100 p-1.5 rounded-2xl group hover:bg-orange-100 group-hover:transition hover:cursor-pointer hover:shadow-xl"
+    >
       <div className="w-full h-full bg-white border border-gray-200 group-hover:border-orange-500 rounded-xl shadow hover:shadow-md flex flex-col items-start gap-6 p-6">
         <img
           src={item.imgSrc}
@@ -17,7 +32,7 @@ const DemoCard = ({ item }) => {
           </Button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
