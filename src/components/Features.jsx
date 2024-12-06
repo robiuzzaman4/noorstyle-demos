@@ -52,28 +52,33 @@ const FEATURES = [
 ];
 const Features = () => {
   return (
-    <Container className="py-20 grid gap-12">
-      <h1 className="text-3xl text-center font-semibold underline underline-offset-8 decoration-wavy decoration-orange-500">
-        Core Features
-      </h1>
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {FEATURES.map((feature, index) => (
-          <div key={index} className="bg-gray-100 p-1.5 rounded-2xl group hover:bg-orange-100 hover:shadow-xl hover:cursor-pointer">
-            <div className="bg-white border-2 border-gray-200 group-hover:border-orange-500 rounded-xl shadow hover:shadow-md flex flex-col items-center gap-3 p-6">
-              <img
-                src={feature.iconSrc}
-                alt={feature.label}
-                className="object-contain size-16"
-              />
+    <div className="py-20" id="features">
+      <Container className="grid gap-12">
+        <h1 className="text-3xl text-center font-semibold underline underline-offset-8 decoration-wavy decoration-orange-500">
+          Core Features
+        </h1>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {FEATURES.map((feature, index) => (
+            <div
+              key={index}
+              className="bg-gray-100 p-1.5 rounded-2xl group hover:bg-orange-100 hover:shadow-xl hover:cursor-pointer"
+            >
+              <div className="bg-white border-2 border-gray-200 group-hover:border-orange-500 rounded-xl shadow hover:shadow-md flex flex-col items-center gap-3 p-6">
+                <img
+                  src={feature.iconSrc}
+                  alt={feature.label}
+                  className="object-contain size-16"
+                />
 
-              <p className="text-xl font-medium text-gray-800">
-                {feature.label}
-              </p>
+                <p className="text-xl font-medium text-gray-800">
+                  {feature.label}
+                </p>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
-    </Container>
+          ))}
+        </div>
+      </Container>
+    </div>
   );
 };
 
