@@ -12,7 +12,7 @@ const LINKS = [
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="fixed top-0 py-4 w-full bg-white border-b border-b-gray-200 flex items-center z-50">
+    <nav className="fixed top-0 py-4 w-full bg-white border-b border-b-zinc-200 flex items-center z-50">
       <Container className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <Link to="/">
           <img
@@ -26,7 +26,7 @@ const Navbar = () => {
             <a
               key={index}
               href={link.to}
-              className="text-sm font-medium text-gray-600"
+              className="text-sm font-medium text-zinc-600"
             >
               {link.label}
             </a>
@@ -84,7 +84,7 @@ const Navbar = () => {
               <a
                 key={index}
                 href={link.to}
-                className="text-sm font-medium text-gray-600"
+                className="text-sm font-medium text-zinc-600"
                 onClick={() => setOpen(false)}
               >
                 {link.label}
