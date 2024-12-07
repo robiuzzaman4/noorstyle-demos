@@ -23,7 +23,7 @@ const Hero = () => {
           </p>
 
           <Button className="h-12 w-full sm:max-w-40">
-            <a href="/#home_pages">Check Demos</a>
+            <a href="/#demo">Check Demos</a>
           </Button>
         </div>
         <div className="z-40">
