@@ -35,7 +35,7 @@ const AnimatedCounter = ({ from, to, animationOptions }) => {
     };
   }, [ref, inView, from, to]);
 
-  return <span ref={ref} className="text-center text-[#fd9800] text-5xl font-semibold" />;
+  return <span ref={ref} className="text-center text-green-400 text-5xl font-semibold" />;
 };
 
 export default AnimatedCounter;
