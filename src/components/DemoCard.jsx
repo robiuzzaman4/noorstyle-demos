@@ -22,9 +22,9 @@ const DemoCard = ({ item }) => {
         duration: 0.5,
         ease: "easeInOut",
       }}
-      className="bg-gray-100 p-1.5 rounded-2xl group hover:bg-orange-100 group-hover:transition hover:cursor-pointer hover:shadow-xl"
+      className="bg-gray-100 p-1.5 rounded-2xl group hover:bg-orange-100 group-hover:transition hover:cursor-pointer shadow-lg hover:shadow-xl"
     >
-      <div className="w-full h-full bg-white border border-gray-200 group-hover:border-orange-500 rounded-xl shadow hover:shadow-md flex flex-col items-start gap-6 p-6">
+      <div className="w-full h-full bg-white border-2 border-gray-200 group-hover:border-orange-500 rounded-xl shadow hover:shadow-md flex flex-col items-start gap-6 p-6">
         <img
           src={item.imgSrc}
           alt={item.title}
