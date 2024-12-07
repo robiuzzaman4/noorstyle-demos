@@ -1,21 +1,22 @@
+import AnimatedCounter from "./AnimatedCounter";
 import Container from "./Container";
 
 const PERFORMANCE = [
   {
     label: "Performance",
-    value: "90%",
+    value: "90",
   },
   {
     label: "Page SEO",
-    value: "91%",
+    value: "91",
   },
   {
     label: "Best Practices",
-    value: "96%",
+    value: "96",
   },
   {
     label: "Accessibility",
-    value: "81%",
+    value: "81",
   },
 ];
 
@@ -39,9 +40,10 @@ const Performance = () => {
               key={i}
               className="bg-zinc-800 p-6 rounded-lg shadow flex flex-col gap-3"
             >
-              <h2 className="text-center text-[#fd9800] text-5xl font-semibold">
+              {/* <h2 className="text-center text-[#fd9800] text-5xl font-semibold">
                 {item.value}
-              </h2>
+              </h2> */}
+              <AnimatedCounter from={0} to={Number(item.value)} />
               <h2 className="text-center text-2xl font-semibold text-zinc-300">
                 {item.label}
               </h2>
