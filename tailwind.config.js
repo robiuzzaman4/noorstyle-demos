@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
+        pattern: "url('/pattern.svg')",
         grainy: "url('/grainy.png')",
       },
     },

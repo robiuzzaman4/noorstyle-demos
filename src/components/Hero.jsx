@@ -5,7 +5,7 @@ import { TextEffect } from "./TextEffect";
 
 const Hero = () => {
   return (
-    <section className="w-full overflow-hidden">
+    <section className="w-full overflow-hidden bg-pattern">
       <Container className="py-40 relative grid lg:grid-cols-2 gap-12">
         <div className="w-full flex flex-col items-center lg:items-start gap-6">
           <Badge>Modern E-commerce Template</Badge>
@@ -31,8 +31,8 @@ const Hero = () => {
           <img src="/thumbnail.png" alt="thumbnail" className="w-full object-cover" />
         </div>
         {/* gradients */}
-        <div className="-z-10 absolute -top-4 -right-4 h-80 w-56 lg:h-96  rotate-45 rounded-xl bg-gradient-to-tr from-yellow-500 to-orange-800 filter blur-3xl opacity-20"></div>
-        <div className="-z-10 absolute -bottom-4 -left-4 h-80 w-56 lg:h-96  rotate-45 rounded-xl bg-gradient-to-r from-orange-500 to-yellow-800 filter blur-3xl opacity-20"></div>
+        <div className="absolute -top-4 -right-4 h-80 w-56 lg:h-96  rotate-45 rounded-xl bg-gradient-to-tr from-yellow-500 to-orange-800 filter blur-3xl opacity-20"></div>
+        <div className="absolute -bottom-4 -left-4 h-80 w-56 lg:h-96  rotate-45 rounded-xl bg-gradient-to-r from-orange-500 to-yellow-800 filter blur-3xl opacity-20"></div>
       </Container>
     </section>
   );
