@@ -34,7 +34,7 @@ const Navbar = () => {
           ))}
         </div>
         <Button className="hidden md:block">
-          <Link href="/" target="_blank">
+          <Link to="https://themeforest.net/user/wenextcoder" target="_blank">
             Purchase Now
           </Link>
         </Button>
@@ -91,6 +91,14 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
+            <Button className="w-full">
+              <Link
+                to="https://themeforest.net/user/wenextcoder"
+                target="_blank"
+              >
+                Purchase Now
+              </Link>
+            </Button>
           </div>
         )}
       </Container>
