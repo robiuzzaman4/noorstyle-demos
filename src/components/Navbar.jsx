@@ -12,7 +12,7 @@ const LINKS = [
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="fixed top-0 py-4 w-full bg-white/50 backdrop-blur-2xl border-b border-b-gray-200 flex items-center z-50">
+    <nav className="fixed top-0 py-4 w-full bg-white border-b border-b-gray-200 flex items-center z-50">
       <Container className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <Link to="/">
           <img
