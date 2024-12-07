@@ -106,6 +106,14 @@ export const FEATURES = [
     iconSrc: "/icons/form.svg",
   },
   {
+    label: "Google Fonts",
+    iconSrc: "/icons/font.svg",
+  },
+  {
+    label: "Google Map",
+    iconSrc: "/icons/map.svg",
+  },
+  {
     label: "Fully Responsive",
     iconSrc: "/icons/devices.svg",
   },
@@ -116,13 +124,5 @@ export const FEATURES = [
   {
     label: "Well Documented",
     iconSrc: "/icons/doc.svg",
-  },
-  {
-    label: "Google Fonts",
-    iconSrc: "/icons/font.svg",
-  },
-  {
-    label: "Google Map",
-    iconSrc: "/icons/map.svg",
   },
 ];
