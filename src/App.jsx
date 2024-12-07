@@ -10,8 +10,8 @@ const App = () => {
       <Navbar />
       <div className="min-h-[calc(100vh-56px)] mt-14">
         <Hero />
-        <Performance />
         <Demos />
+        <Performance />
         <Features />
       </div>
     </main>

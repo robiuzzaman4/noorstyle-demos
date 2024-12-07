@@ -6,7 +6,7 @@ import { useState } from "react";
 const LINKS = [
   { label: "Demo", to: "/#demo" },
   { label: "Features", to: "/#features" },
-  { label: "Support", to: "/#support" },
+  { label: "Support", to: "https://support.wenextcoder.com" },
 ];
 
 const Navbar = () => {
@@ -24,6 +24,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-6">
           {LINKS.map((link, index) => (
             <a
+              target={index === LINKS.length - 1 && "_blank"}
               key={index}
               href={link.to}
               className="text-sm font-medium text-zinc-600"
