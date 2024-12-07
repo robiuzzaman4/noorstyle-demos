@@ -1,3 +1,4 @@
+import { FEATURES } from "../constants";
 import Badge from "./Badge";
 import Button from "./Button";
 import Container from "./Container";
@@ -21,6 +22,17 @@ const Hero = () => {
             Modern, responsive e-commerce template built with React.js, Next.js,
             TypeScript and Tailwind CSS.
           </p>
+
+          <div className="flex items-center gap-3">
+            {FEATURES.slice(0, 4).map((feature, i) => (
+              <img
+                key={i}
+                src={feature.iconSrc}
+                alt={feature.label}
+                className="object-contain size-8"
+              />
+            ))}
+          </div>
 
           <Button className="h-12 w-full sm:max-w-40">
             <a href="/#demo">Check Demos</a>

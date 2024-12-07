@@ -75,3 +75,54 @@ export const DEMO_PAGES = [
     imgSrc: "/images/reset-password.png",
   },
 ];
+
+export const FEATURES = [
+  {
+    label: "React.js",
+    iconSrc: "/icons/react.svg",
+  },
+  {
+    label: "Next.js",
+    iconSrc: "/icons/next.svg",
+  },
+  {
+    label: "TypeScript",
+    iconSrc: "/icons/ts.svg",
+  },
+  {
+    label: "Tailwind CSS",
+    iconSrc: "/icons/tailwind.svg",
+  },
+  {
+    label: "Shadcn UI",
+    iconSrc: "/icons/shadcn.svg",
+  },
+  {
+    label: "Lucid React Icon",
+    iconSrc: "/icons/lucid.svg",
+  },
+  {
+    label: "Contact Form",
+    iconSrc: "/icons/form.svg",
+  },
+  {
+    label: "Fully Responsive",
+    iconSrc: "/icons/devices.svg",
+  },
+  {
+    label: "Clean Code",
+    iconSrc: "/icons/code.svg",
+  },
+  {
+    label: "Well Documented",
+    iconSrc: "/icons/doc.svg",
+  },
+  {
+    label: "Google Fonts",
+    iconSrc: "/icons/font.svg",
+  },
+  {
+    label: "Google Map",
+    iconSrc: "/icons/map.svg",
+  },
+];
