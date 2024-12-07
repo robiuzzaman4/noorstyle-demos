@@ -79,7 +79,7 @@ const Navbar = () => {
         </button>
         {/* mobile navlinks */}
         {open && (
-          <div className="flex flex-col items-start gap-6 mt-6">
+          <div className="flex flex-col items-start gap-3 mt-6">
             {LINKS.map((link, index) => (
               <a
                 key={index}
