@@ -27,7 +27,7 @@ const Navbar = () => {
               target={index === LINKS.length - 1 && "_blank"}
               key={index}
               href={link.to}
-              className="text-sm font-medium text-zinc-600"
+              className="text-base font-medium text-zinc-600 hover:text-orange-500"
             >
               {link.label}
             </a>
