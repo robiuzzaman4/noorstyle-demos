@@ -4,10 +4,9 @@ import { Link } from "react-router";
 import { useState } from "react";
 
 const LINKS = [
-  { label: "Home Pages", to: "/#home_pages" },
-  { label: "Auth Pages", to: "/#auth_pages" },
-  { label: "Other Pages", to: "/#other_pages" },
+  { label: "Demo", to: "/#demo" },
   { label: "Features", to: "/#features" },
+  { label: "Support", to: "/#support" },
 ];
 
 const Navbar = () => {
