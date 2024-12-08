@@ -3,9 +3,9 @@ import Container from "./Container";
 
 const Cta = () => {
   return (
-    <section className="py-20 px-4">
-      <Container className="bg-zinc-900 py-20 rounded-xl relative overflow-hidden">
-        <div className="w-full max-w-4xl mx-auto">
+    <section className="py-20">
+      <Container>
+        <div className="w-full bg-zinc-900 py-20 px-6 rounded-xl relative overflow-hidden">
           <span className="flex flex-col gap-6">
             <p className="text-lg font-bold text-center text-zinc-300 uppercase z-40">
               Get Started with{" "}
@@ -29,10 +29,10 @@ const Cta = () => {
               <div className="ease-in-[cubic-bezier(0.19,1,0.22,1)] absolute -left-[75px] -top-[50px] -z-10 h-[155px] w-8 rotate-[35deg] bg-white opacity-25 transition-all duration-500 group-hover:left-[120%]"></div>
             </button>
           </span>
-        </div>
 
-        <div className="absolute -top-4 -right-4 h-80 w-56 lg:h-96  rotate-45 rounded-xl bg-gradient-to-tr from-yellow-500 to-rose-500 filter blur-3xl opacity-20"></div>
-        <div className="absolute -bottom-4 -left-4 h-80 w-56 lg:h-96  rotate-45 rounded-xl bg-gradient-to-r from-violet-500 to-sky-500 filter blur-3xl opacity-20"></div>
+          <div className="absolute -top-4 -right-4 h-80 w-56 lg:h-96  rotate-45 rounded-xl bg-gradient-to-tr from-yellow-500 to-rose-500 filter blur-3xl opacity-20"></div>
+          <div className="absolute -bottom-4 -left-4 h-80 w-56 lg:h-96  rotate-45 rounded-xl bg-gradient-to-r from-violet-500 to-sky-500 filter blur-3xl opacity-20"></div>
+        </div>
       </Container>
     </section>
   );
