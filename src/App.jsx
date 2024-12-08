@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Demos from "./components/Demos";
 import Features from "./components/Features";
 import Performance from "./components/Performance";
+import Cta from "./components/Cta";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Demos />
         <Performance />
         <Features />
+        <Cta />
       </div>
     </main>
   );
