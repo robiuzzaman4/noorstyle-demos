@@ -1,6 +1,8 @@
 import { Link } from "react-router";
 import Button from "./Button";
 import { motion } from "motion/react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const DemoCard = ({ item }) => {
   const handleVisitDemo = () => {
@@ -25,10 +27,11 @@ const DemoCard = ({ item }) => {
       className="bg-zinc-100 p-1.5 rounded-2xl group hover:bg-orange-100 group-hover:transition hover:cursor-pointer shadow-lg hover:shadow-xl"
     >
       <div className="w-full h-full bg-white border-2 border-zinc-200 group-hover:border-orange-500 rounded-xl shadow hover:shadow-md flex flex-col items-start gap-6 p-6">
-        <img
+        <LazyLoadImage
           src={item.imgSrc}
           alt={item.title}
           className="object-contain w-full"
+          effect="blur"
         />
         <div className="w-full flex items-center justify-between">
           <p className="text-xl font-semibold text-zinc-800">{item.title}</p>
