@@ -4,6 +4,7 @@ import Demos from "./components/Demos";
 import Features from "./components/Features";
 import Performance from "./components/Performance";
 import Cta from "./components/Cta";
+import Foooter from "./components/Foooter";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Features />
         <Cta />
       </div>
+      <Foooter/>
     </main>
   );
 };
