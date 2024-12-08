@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const Cta = () => {
   return (
-    <section className="py-20">
+    <section className="pt-10 pb-20">
       <Container>
         <div className="w-full bg-zinc-900 py-20 px-6 rounded-xl relative overflow-hidden">
           <span className="flex flex-col gap-6">
@@ -11,7 +11,7 @@ const Cta = () => {
               Get Started with{" "}
               <span className="text-orange-500">NoorStyle</span>
             </p>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-center font-semibold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-violet-500 z-40">
+            <h1 className="text-4xl lg:text-5xl text-center font-semibold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-violet-500 z-40">
               Run Your Business Immediately.
             </h1>
             <button className="w-full sm:max-w-60 mx-auto group relative inline-flex transform items-center justify-center whitespace-nowrap text-base font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 disabled:pointer-events-none disabled:opacity-50 h-12 rounded-full bg-orange-500 text-white shadow hover:ring-2 hover:ring-orange-500 ring-offset-zinc-900 hover:ring-offset-2 focus:ring-offset-2 overflow-hidden z-40">

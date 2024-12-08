@@ -22,7 +22,7 @@ const PERFORMANCE = [
 
 const Performance = () => {
   return (
-    <section className="py-20">
+    <section className="pt-20 pb-10">
       <Container>
         <div className="bg-zinc-900 py-20 rounded-xl px-6 grid gap-12">
           <div className="flex flex-col md:flex-row items-center gap-12 w-full max-w-4xl mx-auto">
