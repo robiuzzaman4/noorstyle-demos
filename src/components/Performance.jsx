@@ -1,10 +1,11 @@
+import { Link } from "react-router";
 import AnimatedCounter from "./AnimatedCounter";
 import Container from "./Container";
 
 const PERFORMANCE = [
   {
     label: "Performance",
-    value: "90",
+    value: "91",
   },
   {
     label: "Page SEO",
@@ -55,6 +56,19 @@ const Performance = () => {
                 </h2>
               </div>
             ))}
+          </div>
+          <div className="w-fit mx-auto flex items-center gap-3">
+            <img
+              src="/pagespeed.png"
+              alt="pagespeed"
+              className="object-cover size-6"
+            />
+            <p className="text-sm font-medium text-zinc-500">
+              Statistics Generated From{" "}
+              <Link to="https://pagespeed.web.dev/" target="_blank" className="text-green-400">
+                Pagespeed
+              </Link>
+            </p>
           </div>
         </div>
       </Container>
